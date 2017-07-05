@@ -1,0 +1,47 @@
+#advance-search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    min-width: 700px;
+    height: 60vh;
+}
+
+#search input {
+    width: 20em;
+}
+
+#search-button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#advanced-options-toggle {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+#advanced-options {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.option-rows {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#span-price {
+    font-size: 1.2em;
+}
+
+#price-slider p-slider {
+    width: 60%;
+}
